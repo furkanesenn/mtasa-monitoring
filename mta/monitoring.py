@@ -5,6 +5,7 @@ from mta.exceptions import ServerException
 
 
 class Server:
+    """Main Class""
     timeout = .2
     game = None
     port = None
